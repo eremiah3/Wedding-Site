@@ -242,7 +242,7 @@ header {
 
  .bg-slide .content h1 {
     font-size: 1.5em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     margin-top: 40px;
     border: 1px solid var(--primary);
@@ -546,7 +546,7 @@ section p {
     font-size: 2em;
 }
 .about p{
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 1.4em;
 }
 
@@ -671,7 +671,10 @@ section p {
 .section-btn{
 text-decoration:  none;
 }
-.card .details p {
+.address {
+    font-weight: 900;
+}
+.time {
     font-weight: 900;
 }
 /* ======================================
