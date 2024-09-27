@@ -81,7 +81,7 @@ const toggleMenu = () => {
 
 
 
-/* -- Created by Tivotal -- */
+
 
 function getTimeRemaining(et) {
     var t = Date.parse(et) - Date.parse(new Date());

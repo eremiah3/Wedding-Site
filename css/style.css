@@ -241,18 +241,26 @@ header {
  }
 
  .bg-slide .content h1 {
-    font-size: 5em;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-align: center;
     margin-top: 40px;
  }
  .bg-slide .content h2 {
+   
     font-size: 3em;
     text-transform: uppercase;
+    margin-top: 30px;
+    font-family:'Verdana';
     text-align: center;
+    
     margin-top: 5px;
  }
-
+ 
+ .bg-slide .content h2::first-letter{
+    font-family: 'Great Vibes', cursive;
+    color: var(--primary);
+ }
  .bg-slide .content p {
     font-family: 'Great Vibes', ;
     font-weight: bold;
@@ -497,7 +505,7 @@ section.section-show {
 
 
 section h1 {
-    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Great Vibes', cursive; */
     font-weight: 400;
     font-size: 4em;
     letter-spacing: 1px;
@@ -526,9 +534,11 @@ section p {
 .about h4::first-letter {
     color: var(--primary);
     font-size: 2em;
+    font-family: 'Great Vibes', cursive;
+
 }
 .about h4{
-    font-size: 3em;
+    font-size: 2em;
 }
 .about p{
     font-weight: 900;
@@ -577,12 +587,14 @@ section p {
     content: '';
     left: 50%;
     transform: translateX(-50%);
-    top: 250px;
+    top: 200px;
     height: 100px;
     width: 2px;
     background: #111111;
 }
-
+.services h1{
+    font-size: 1.5em;
+}
 .card {
     position: relative;
     margin: 20px 0;
@@ -651,11 +663,18 @@ section p {
     color: var(--primary);
     font-size: 1.5em;
 }
+.section-btn{
+text-decoration:  none;
+}
+.card .details p {
+    font-weight: 900;
+}
 /* ======================================
 # Portfolio Section
 ========================================= */
 .portfolio h1 {
    margin-bottom: 50px; 
+   font-size: 1.5em;
 }
 
 .portfolio #portfolio-filters {
@@ -928,12 +947,16 @@ section p {
     }
 
     .bg-slide .content h1 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .bg-slide .content h2 {
-        font-size: 1em;
+        font-size: 2em;
         /* margin-bottom: 30px; */
     }
+    .bg-slide .content h2::first-letter{
+        font-family: 'Great Vibes', cursive;
+        color: var(--primary);
+     }
     .bg-slide .content p {
         font-size: 0.8em;
         font-weight: 700;
