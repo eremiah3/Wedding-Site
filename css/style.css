@@ -479,7 +479,9 @@ header {
         transform: rotateZ(360deg);
     }
  }
-
+.te{
+    text-align: left;
+}
 /* ======================================
 # Section General
 ========================================= */
