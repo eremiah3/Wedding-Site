@@ -479,8 +479,17 @@ header {
         transform: rotateZ(360deg);
     }
  }
-.te{
-    text-align: left;
+.bg-slide h3{
+    font-size: 1.5em;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.na{
+    font-size: 1.5em;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    font-weight: 900;
 }
 /* ======================================
 # Section General
@@ -966,6 +975,18 @@ text-decoration:  none;
     .bg-slide .content h2 {
         font-size: 2em;
         /* margin-bottom: 30px; */
+    }
+    .bg-slide h3{
+        font-size: 1.2em;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-weight: 200;
+    }
+    .na{
+        font-size: 1em;
+        justify-content: space-between;
+        /* margin-top: 10px; */
+        font-weight: 900;
     }
     .bg-slide .content h2::first-letter{
         font-family: 'Great Vibes', cursive;
