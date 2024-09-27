@@ -928,14 +928,14 @@ section p {
     }
 
     .bg-slide .content h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .bg-slide .content h2 {
-        font-size: 1.2em;
+        font-size: 1em;
         /* margin-bottom: 30px; */
     }
     .bg-slide .content p {
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 900;
     }
 
