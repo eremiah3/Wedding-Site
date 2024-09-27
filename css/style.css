@@ -261,14 +261,11 @@ header {
     margin-top: 5px;
  }
  
- .bg-slide .content h2:first-letter{
+ .bg-slide .content h2::first-letter{
     font-family: 'Great Vibes', cursive;
     color: var(--primary);
  }
- .bg-slide .content h2::r{
-    font-family: 'Great Vibes', cursive;
-    color: var(--primary);
- }
+ 
  .bg-slide .content p {
     font-family: 'Great Vibes', ;
     /* font-weight: bold; */
@@ -956,6 +953,10 @@ text-decoration:  none;
 
     .bg-slide .content h1 {
         font-size: 1em;
+        border: 1px solid var(--primary);
+            border-radius: 5px;
+            padding: 10px 20px;
+            display: inline-block;
     }
     .bg-slide .content h2 {
         font-size: 2em;
@@ -966,9 +967,9 @@ text-decoration:  none;
         color: var(--primary);
      }
     .bg-slide .content p {
-        font-size: 0.5em;
-        
-        font-size: 10px;
+        font-size: 0.8em;
+        font-weight:500;
+        /* font-size: 10px; */
         font-family: 'montserrat';
     }
 
