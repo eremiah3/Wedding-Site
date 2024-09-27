@@ -936,7 +936,9 @@ section p {
     }
     .bg-slide .content p {
         font-size: 0.8em;
-        font-weight: 900;
+        font-weight: 700;
+        font-size: 10px;
+        font-family: 'montserrat';
     }
 
     .circle.bg {
