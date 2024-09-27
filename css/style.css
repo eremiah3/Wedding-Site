@@ -254,9 +254,9 @@ header {
  }
 
  .bg-slide .content p {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 200;
-    font-size: 2em;
+    font-family: 'Great Vibes', ;
+    font-weight: bold;
+    font-size: 1.5em;
     letter-spacing: 1px;
     margin-top: 5px;
  }
